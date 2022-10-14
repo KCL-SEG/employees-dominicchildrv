@@ -33,10 +33,10 @@ class Employee:
 
     def get_commission_info(self):
         if self.commissionType == "contract":
-            message = (f" and recives a commission for {self.numOfContracts} contract(s) at {self.commissionPerCon}/contract")
+            message = (f" and receives a commission for {self.numOfContracts} contract(s) at {self.commissionPerCon}/contract")
             return(message)
         elif self.commissionType == "fixed":
-            message = (f" and recives a bonus commission of {self.fixedCommission}")
+            message = (f" and receives a bonus commission of {self.fixedCommission}")
             return(message)
         else:
             return("")
